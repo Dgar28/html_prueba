@@ -1,0 +1,28 @@
+body {
+ 
+}
+
+.trev{
+ font-style: italic;
+ color: #00FFFF;
+}
+
+img{
+ padding: 100px;
+ filter: contrast(1.8) brightness(1.5) grayscale(1);
+}
+
+
+
+.nav{
+ background-color: #7FFFD4;
+ font-weight: bold;
+}
+
+input[type=text] {
+  width: 85%;
+  margin: 7px 0;
+  box-sizing: border-box;
+  border: 3px solid purple;
+  border-radius: 4px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPEhtml>
+<html lang="es">
+
+<head>
+ <meta charset="UTF-8">
+ <title>Datos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="nav">
+<h2 >Recurso adicional</h2>
+<p>Consulta <a target="_blank" href="index.html"> biografía </a> </p>
+</div>
+
+ <main>
+ <h1>Datos Personales</h1>
+ <section>
+  <h2>Formulario</h2>
+  <form action="formulario.html" method="GET">
+
+ <fieldset>
+ <label for="nombre">Ingresa tu nombre:</label>
+ <input type="text" name="nombre" placeholder="Nombre" id="nombre" required>
+  </fieldset>
+
+ <fieldset>
+ <label for="correo">Ingresa correo:</label>
+ <input type="email" name="correo" placeholder="Correo" id="correo" required>
+  </fieldset>
+
+
+<fieldset>
+ <legend>Ingresa tu genero</legend>
+ <label><input id="hombre" type="radio" name="hombre-mujer" value="hombre"> Hombre</label>
+
+<label><input id="mujer" type="radio" name="hombre-mujer" value="mujer"
+checked> Mujer</label>
+</fieldset>
+
+
+ <fieldset>
+ <label for="contraseña">Ingresa contraseña:</label>
+ <input type="password" name="contraseña" placeholder="Contraseña" id="contraseña" required>
+  </fieldset>
+
+
+<fieldset>
+ <legend>Hablanos más sobre ti</legend>
+ <textarea name="comentarios" rows="10" cols="30">Escribe aquí tus comentarios</textarea>
+</fieldset>
+
+<fieldset>
+ <legend>Ingresa Ciudad</legend>
+
+ <select name="" id="">
+  <option value="Guadalajara">Guadalajara</option>
+  <option value="Zapopan">Zapopan</option>
+  <option value="Tonalá">Tonalá</option>
+  <option value="Otra">Otra</option>
+ </select>
+</fieldset>
+
+
+<fieldset>
+ <legend>Me interesa contratarte </legend>
+ <input id="si" type="checkbox" name="interesa" value="si">
+ <label for="si">Si</label>
+
+ <input id="no" type="checkbox" name="interesa" value="no">
+ <label for="no">No</label>
+</fieldset>
+
+ <button type="submit">Enviar</button>
+
+</form>
+</section>
+</main>
+</body>
+</html>
